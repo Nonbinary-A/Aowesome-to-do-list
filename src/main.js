@@ -7,3 +7,7 @@ let counter = 0;
 //Defining sort button
 const sortButton = document.getElementById("sortButton");
 
+//event add button
+button.onclick = function(){
+    let todoItem = input.value;
+    input.value = '';
