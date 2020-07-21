@@ -86,3 +86,7 @@ select {
     margin: 4px 2px;
     cursor: pointer;
   }
+  .todoContainer{ 
+    grid-template-columns: 40px 100px auto ;
+    grid-template-rows: 25% 100px auto;
+  }
