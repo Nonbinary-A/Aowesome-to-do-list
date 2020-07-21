@@ -58,3 +58,18 @@ select {
     padding: 1rem;
     padding-right: 2rem;
   }
+  #sortButton{
+    background-color: rgb(125, 118, 189);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+    position: relative;
+    left: 40%;
+ 
+  }
