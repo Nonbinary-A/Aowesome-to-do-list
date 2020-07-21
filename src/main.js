@@ -42,7 +42,7 @@ todoContainer.appendChild(textTodo);
 
 // counting childs for counter
 counter = document.getElementById("list").childElementCount;
-document.getElementById("counter").innerHTML = counter;
+document.getElementById("counter").innerHTML = counter + " TODO's";
 }
 
 // sort button event
