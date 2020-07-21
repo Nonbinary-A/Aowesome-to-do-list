@@ -90,3 +90,13 @@ select {
     grid-template-columns: 40px 100px auto ;
     grid-template-rows: 25% 100px auto;
   }
+  .todoPriority{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(46, 119, 161); 
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  
+}
