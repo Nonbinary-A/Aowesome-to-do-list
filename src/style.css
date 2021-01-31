@@ -1,0 +1,126 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: cursive; 
+  } 
+    
+  body { 
+    background: #f2f2f2; 
+    overflow: auto; 
+  } 
+  h1{
+    text-align: center; 
+    text-decoration: underline; 
+    font-size: 3.5rem;
+  }  
+  p { 
+     text-align: center; 
+     margin: 5%; 
+     font-size: 2.5rem; 
+     color: cadetblue;
+  } 
+  #divInput{
+
+      position: relative;
+      left: 40%;
+      display: inline-flex;
+  }
+  ul { 
+    text-align: center; 
+    padding-left: 10%; 
+    padding: 7%; 
+    font-size: 2rem; 
+    list-style: circle; 
+  } 
+  #textInput{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      background-color: azure;
+      outline: none;
+  }
+  select {
+    position: relative;
+    left: 40%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-right: 2rem;
+  }
+  
+  #sortButton{
+    background-color: rgb(125, 118, 189);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+    position: relative;
+    left: 40%;
+ 
+  }
+  #addButton{
+    position: relative;
+    left: 38%;
+    background-color: #afa84c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+    
+  .todoContainer{ 
+        grid-template-columns: 40px 100px auto ;
+        grid-template-rows: 25% 100px auto;
+      }
+      
+   
+  
+
+.todoPriority{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(46, 119, 161); 
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  
+}
+.todoCreatedAt{
+     font-size: 1.5rem;
+     grid-column-start: 2;
+     grid-column-end: 2;
+     grid-row-start: 1;
+     grid-row-end: 1;
+   
+    }
+  .todoText{
+     padding-left: 15px;
+     color: skyblue;
+     grid-column-start: 3;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 1;
+   
+                  }
